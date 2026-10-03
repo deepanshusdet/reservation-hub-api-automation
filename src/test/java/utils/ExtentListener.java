@@ -15,6 +15,7 @@ public class ExtentListener implements ITestListener {
 
         test = ExtentManager.getReport()
                 .createTest(result.getMethod().getMethodName());
+
     }
 
     @Override
@@ -26,6 +27,7 @@ public class ExtentListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
 
+        test.fail("Test Failed");
         test.fail(result.getThrowable());
     }
 
