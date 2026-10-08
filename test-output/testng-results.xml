@@ -2,112 +2,112 @@
 <testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-03T15:12:33 IST" name="Default suite" finished-at="2026-10-03T15:13:01 IST" duration-ms="28001">
+  <suite started-at="2026-10-08T11:58:01 IST" name="Default suite" finished-at="2026-10-08T11:58:20 IST" duration-ms="19671">
     <groups>
     </groups>
-    <test started-at="2026-10-03T15:12:33 IST" name="Default test" finished-at="2026-10-03T15:13:01 IST" duration-ms="28001">
+    <test started-at="2026-10-08T11:58:01 IST" name="Default test" finished-at="2026-10-08T11:58:20 IST" duration-ms="19671">
       <class name="tests.BookingTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BookingTest@26794848]" started-at="2026-10-03T15:12:33 IST" name="setup" finished-at="2026-10-03T15:12:33 IST" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BookingTest@3cd3e762]" started-at="2026-10-08T11:58:01 IST" name="setup" finished-at="2026-10-08T11:58:01 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createBooking()[pri:0, instance:tests.BookingTest@26794848]" started-at="2026-10-03T15:12:33 IST" name="createBooking" finished-at="2026-10-03T15:12:37 IST" duration-ms="3572" status="PASS">
+        <test-method signature="createBooking()[pri:0, instance:tests.BookingTest@3cd3e762]" started-at="2026-10-08T11:58:01 IST" name="createBooking" finished-at="2026-10-08T11:58:04 IST" duration-ms="3169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method signature="getBooking()[pri:0, instance:tests.BookingTest@26794848]" started-at="2026-10-03T15:12:37 IST" name="getBooking" finished-at="2026-10-03T15:12:38 IST" depends-on-methods="tests.BookingTest.createBooking" duration-ms="1092" status="PASS">
+        <test-method signature="getBooking()[pri:0, instance:tests.BookingTest@3cd3e762]" started-at="2026-10-08T11:58:04 IST" name="getBooking" finished-at="2026-10-08T11:58:05 IST" depends-on-methods="tests.BookingTest.createBooking" duration-ms="766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBooking -->
-        <test-method signature="updateBooking()[pri:0, instance:tests.BookingTest@26794848]" started-at="2026-10-03T15:12:38 IST" name="updateBooking" finished-at="2026-10-03T15:12:40 IST" depends-on-methods="tests.BookingTest.getBooking" duration-ms="2084" status="PASS">
+        <test-method signature="updateBooking()[pri:0, instance:tests.BookingTest@3cd3e762]" started-at="2026-10-08T11:58:05 IST" name="updateBooking" finished-at="2026-10-08T11:58:06 IST" depends-on-methods="tests.BookingTest.getBooking" duration-ms="1431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBooking -->
-        <test-method signature="patchBooking()[pri:0, instance:tests.BookingTest@26794848]" started-at="2026-10-03T15:12:40 IST" name="patchBooking" finished-at="2026-10-03T15:12:42 IST" depends-on-methods="tests.BookingTest.updateBooking" duration-ms="1968" status="PASS">
+        <test-method signature="patchBooking()[pri:0, instance:tests.BookingTest@3cd3e762]" started-at="2026-10-08T11:58:06 IST" name="patchBooking" finished-at="2026-10-08T11:58:08 IST" depends-on-methods="tests.BookingTest.updateBooking" duration-ms="1434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchBooking -->
-        <test-method signature="deleteBooking()[pri:0, instance:tests.BookingTest@26794848]" started-at="2026-10-03T15:12:42 IST" name="deleteBooking" finished-at="2026-10-03T15:12:46 IST" depends-on-methods="tests.BookingTest.patchBooking" duration-ms="3792" status="PASS">
+        <test-method signature="deleteBooking()[pri:0, instance:tests.BookingTest@3cd3e762]" started-at="2026-10-08T11:58:08 IST" name="deleteBooking" finished-at="2026-10-08T11:58:10 IST" depends-on-methods="tests.BookingTest.patchBooking" duration-ms="2392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBooking -->
       </class> <!-- tests.BookingTest -->
-      <class name="tests.AuthTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthTest@ba2f4ec]" started-at="2026-10-03T15:12:46 IST" name="setup" finished-at="2026-10-03T15:12:46 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkToken()[pri:0, instance:tests.AuthTest@ba2f4ec]" started-at="2026-10-03T15:12:46 IST" name="checkToken" finished-at="2026-10-03T15:12:48 IST" duration-ms="1086" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkToken -->
-      </class> <!-- tests.AuthTest -->
       <class name="tests.HealthTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HealthTest@49438269]" started-at="2026-10-03T15:12:46 IST" name="setup" finished-at="2026-10-03T15:12:46 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HealthTest@1a677343]" started-at="2026-10-08T11:58:11 IST" name="setup" finished-at="2026-10-08T11:58:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkHealth()[pri:0, instance:tests.HealthTest@49438269]" started-at="2026-10-03T15:12:46 IST" name="checkHealth" finished-at="2026-10-03T15:12:46 IST" duration-ms="873" status="PASS">
+        <test-method signature="checkHealth()[pri:0, instance:tests.HealthTest@1a677343]" started-at="2026-10-08T11:58:11 IST" name="checkHealth" finished-at="2026-10-08T11:58:12 IST" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHealth -->
       </class> <!-- tests.HealthTest -->
-      <class name="tests.BookingNegativeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:48 IST" name="setup" finished-at="2026-10-03T15:12:48 IST" duration-ms="1" status="PASS">
+      <class name="tests.AuthTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthTest@6ed3ccb2]" started-at="2026-10-08T11:58:10 IST" name="setup" finished-at="2026-10-08T11:58:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createBookingWithCheckoutBeforeCheckin()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:48 IST" name="createBookingWithCheckoutBeforeCheckin" finished-at="2026-10-03T15:12:49 IST" duration-ms="996" status="PASS">
+        <test-method signature="checkToken()[pri:0, instance:tests.AuthTest@6ed3ccb2]" started-at="2026-10-08T11:58:10 IST" name="checkToken" finished-at="2026-10-08T11:58:11 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkToken -->
+      </class> <!-- tests.AuthTest -->
+      <class name="tests.BookingNegativeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:12 IST" name="setup" finished-at="2026-10-08T11:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBookingWithCheckoutBeforeCheckin()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:12 IST" name="createBookingWithCheckoutBeforeCheckin" finished-at="2026-10-08T11:58:12 IST" duration-ms="716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBookingWithCheckoutBeforeCheckin -->
-        <test-method signature="createBookingWithEmptyPayload()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:49 IST" name="createBookingWithEmptyPayload" finished-at="2026-10-03T15:12:50 IST" duration-ms="1010" status="PASS">
+        <test-method signature="createBookingWithEmptyPayload()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:12 IST" name="createBookingWithEmptyPayload" finished-at="2026-10-08T11:58:13 IST" duration-ms="670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBookingWithEmptyPayload -->
-        <test-method signature="createBookingWithMalformedDate()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:50 IST" name="createBookingWithMalformedDate" finished-at="2026-10-03T15:12:51 IST" duration-ms="910" status="PASS">
+        <test-method signature="createBookingWithMalformedDate()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:13 IST" name="createBookingWithMalformedDate" finished-at="2026-10-08T11:58:14 IST" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBookingWithMalformedDate -->
-        <test-method signature="createBookingWithNegativePrice()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:51 IST" name="createBookingWithNegativePrice" finished-at="2026-10-03T15:12:53 IST" duration-ms="2456" status="PASS">
+        <test-method signature="createBookingWithNegativePrice()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:14 IST" name="createBookingWithNegativePrice" finished-at="2026-10-08T11:58:14 IST" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBookingWithNegativePrice -->
-        <test-method signature="createBookingWithWrongDataType()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:53 IST" name="createBookingWithWrongDataType" finished-at="2026-10-03T15:12:54 IST" duration-ms="881" status="PASS">
+        <test-method signature="createBookingWithWrongDataType()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:14 IST" name="createBookingWithWrongDataType" finished-at="2026-10-08T11:58:15 IST" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBookingWithWrongDataType -->
-        <test-method signature="createBookingWithZeroPrice()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:54 IST" name="createBookingWithZeroPrice" finished-at="2026-10-03T15:12:55 IST" duration-ms="955" status="PASS">
+        <test-method signature="createBookingWithZeroPrice()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:15 IST" name="createBookingWithZeroPrice" finished-at="2026-10-08T11:58:16 IST" duration-ms="713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBookingWithZeroPrice -->
-        <test-method signature="createBookingWithoutFirstname()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:55 IST" name="createBookingWithoutFirstname" finished-at="2026-10-03T15:12:56 IST" duration-ms="900" status="PASS">
+        <test-method signature="createBookingWithoutFirstname()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:16 IST" name="createBookingWithoutFirstname" finished-at="2026-10-08T11:58:16 IST" duration-ms="675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBookingWithoutFirstname -->
-        <test-method signature="deleteWithoutToken()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:56 IST" name="deleteWithoutToken" finished-at="2026-10-03T15:12:57 IST" duration-ms="926" status="PASS">
+        <test-method signature="deleteWithoutToken()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:16 IST" name="deleteWithoutToken" finished-at="2026-10-08T11:58:17 IST" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteWithoutToken -->
-        <test-method signature="getNonExistentBooking()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:57 IST" name="getNonExistentBooking" finished-at="2026-10-03T15:12:58 IST" duration-ms="1024" status="PASS">
+        <test-method signature="getNonExistentBooking()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:17 IST" name="getNonExistentBooking" finished-at="2026-10-08T11:58:18 IST" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNonExistentBooking -->
-        <test-method signature="patchWithoutToken()[pri:0, instance:tests.BookingNegativeTest@55fe41ea]" started-at="2026-10-03T15:12:58 IST" name="patchWithoutToken" finished-at="2026-10-03T15:12:59 IST" duration-ms="1004" status="PASS">
+        <test-method signature="patchWithoutToken()[pri:0, instance:tests.BookingNegativeTest@15de0b3c]" started-at="2026-10-08T11:58:18 IST" name="patchWithoutToken" finished-at="2026-10-08T11:58:19 IST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchWithoutToken -->
       </class> <!-- tests.BookingNegativeTest -->
       <class name="tests.AuthNegativeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthNegativeTest@fbd1f6]" started-at="2026-10-03T15:12:59 IST" name="setup" finished-at="2026-10-03T15:12:59 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="updateWithInvalidToken()[pri:0, instance:tests.AuthNegativeTest@fbd1f6]" started-at="2026-10-03T15:12:59 IST" name="updateWithInvalidToken" finished-at="2026-10-03T15:13:00 IST" duration-ms="1014" status="PASS">
+        <test-method signature="updateWithInvalidToken()[pri:0, instance:tests.AuthNegativeTest@489115ef]" started-at="2026-10-08T11:58:19 IST" name="updateWithInvalidToken" finished-at="2026-10-08T11:58:19 IST" duration-ms="707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateWithInvalidToken -->
-        <test-method signature="updateWithoutToken()[pri:0, instance:tests.AuthNegativeTest@fbd1f6]" started-at="2026-10-03T15:13:00 IST" name="updateWithoutToken" finished-at="2026-10-03T15:13:01 IST" duration-ms="915" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthNegativeTest@489115ef]" started-at="2026-10-08T11:58:19 IST" name="setup" finished-at="2026-10-08T11:58:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateWithoutToken()[pri:0, instance:tests.AuthNegativeTest@489115ef]" started-at="2026-10-08T11:58:19 IST" name="updateWithoutToken" finished-at="2026-10-08T11:58:20 IST" duration-ms="980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateWithoutToken -->

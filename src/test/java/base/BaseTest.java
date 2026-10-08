@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeClass;
 
 import io.restassured.RestAssured;
 import utils.ConfigReader;
+import utils.ExtentRestAssuredFilter;
 
 public class BaseTest {
 
@@ -15,5 +16,6 @@ public class BaseTest {
         ConfigReader.loadProperties();
 
         RestAssured.baseURI = ConfigReader.getProperty("baseUrl");
+        RestAssured.filters(new ExtentRestAssuredFilter());
     }
 }

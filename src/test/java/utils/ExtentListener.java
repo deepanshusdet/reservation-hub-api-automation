@@ -8,33 +8,44 @@ import com.aventstack.extentreports.ExtentTest;
 
 public class ExtentListener implements ITestListener {
 
-    ExtentTest test;
+    public static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
     @Override
     public void onTestStart(ITestResult result) {
 
-        test = ExtentManager.getReport()
+        ExtentTest extentTest = ExtentManager.getReport()
                 .createTest(result.getMethod().getMethodName());
 
+        test.set(extentTest);
+
+        ApiLogStore.clear();
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
 
-        test.pass("Test Passed");
+        test.get().info(
+                "<b>Request / Response Details</b><br>"
+                + ApiLogStore.get());
+
+        test.get().pass("Assertions Passed");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
 
-        test.fail("Test Failed");
-        test.fail(result.getThrowable());
+        test.get().info(
+                "<b>Request / Response Details</b><br>"
+                + ApiLogStore.get());
+
+        test.get().fail("Assertions Failed");
+        test.get().fail(result.getThrowable());
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
 
-        test.skip("Test Skipped");
+        test.get().skip("Test Skipped");
     }
 
     @Override
